@@ -35,7 +35,7 @@ sudo -u postgres dropuser user
 sudo /etc/init.d/postgresql restart
 ```
 
-## Set connection parameters for pg
+## Env vars for pg
 Name | Value
 -----------|---------
 PGHOST | localhost
