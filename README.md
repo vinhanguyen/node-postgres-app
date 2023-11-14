@@ -43,3 +43,8 @@ PGDATABASE | mydb
 PGUSER | user
 PGPASSWORD | password
 PGPORT | 5432
+
+## Logging in as superuser
+```
+psql -d mydb -U postgres -W
+```
