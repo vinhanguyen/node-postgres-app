@@ -7,27 +7,27 @@ sudo apt-get install postgresql
 
 ## Create user
 ```
-sudo -u postgres createuser -P user
+sudo -u postgres createuser -P ***user***
 ```
 
 ## Create database
 ```
-sudo -u postgres createdb -O user mydb
+sudo -u postgres createdb -O user ***mydb***
 ```
 
 ## Connect
 ```
-psql -d mydb -h localhost -U user
+psql -d mydb -h localhost -U ***user***
 ```
 
 ## Drop database
 ```
-sudo -u postgres dropdb mydb
+sudo -u postgres dropdb ***mydb***
 ```
 
 ## Drop user
 ```
-sudo -u postgres dropuser user
+sudo -u postgres dropuser ***user***
 ```
 
 ## Restart database
